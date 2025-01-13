@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import whatsapp from "../../assets/whatsapp.png";
 import { IoCall } from "react-icons/io5";
 import { SiGmail } from "react-icons/si";
+import { BiLogoTelegram } from "react-icons/bi";
 import "./Hero.css";
 const Hero = () => {
   const phoneNumber = "+16462720096";
@@ -36,10 +37,12 @@ const Hero = () => {
             // style={{ width: "55%" }}
             variants={fadeIn("left", "tween", 0.4, 1)}
           >
-            I am well known for my finesse in the investment field.
+            Amelia Karen Marshall is an investment advisor with over 15 years of
+            experience, dealing and investing in crypto currency and other
+            related financial markets.
             <br />
-            Over the past years, I have worked with 4 notable investment
-            companies with over 15 years of experience in service.
+            She is a very professional stock broker who executes financial
+            transactions to registered securities broker.
           </motion.span>
         </div>
         <motion.div
@@ -57,18 +60,29 @@ const Hero = () => {
           </div>
         </motion.div>
         <br />
+        <div className="icons-div">
+          <div>
+            <span>
+              <SiGmail />
+            </span>
+            <span>ameliakarenmarshall@gmail.com</span>{" "}
+          </div>
 
-        <div className={css.number}>+16462720096</div>
+          <div>
+            <span>
+              <IoCall />
+            </span>
+            <span>+16462720096</span>{" "}
+          </div>
+        </div>
+        {/* <div className={css.number}>+16462720096</div>
 
-        {/* <br /> */}
+       
 
         <a className={css.email} href="mailto:ameliakarenmarshall@gmail.com">
-          {/* <span>
-            {" "}
-            <SiGmail style={{ color: "black" }} />
-          </span>{" "} */}
+         
           ameliakarenmarshall@gmail.com
-        </a>
+        </a> */}
         <div className={css.lowerElements}>
           <motion.div
             variants={fadeIn("right", "tween", 0.3, 1)}

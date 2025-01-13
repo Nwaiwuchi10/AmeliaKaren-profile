@@ -18,9 +18,33 @@
   height: 100%;
   object-fit: cover;
 }
+/* .icons-div div span {
+  font-weight: 500;
+} */
+.icons-div div {
+  font-size: large;
+  font-weight: 500;
+  display: flex;
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 768px) {
   .secondaryText {
     width: 95%;
+  }
+  .icons-div div {
+    margin-top: -200px;
+    /* font-size: large;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center; */
+    /* margin-top: -50px;
+    margin-bottom: 20px; */
   }
 }
 @media screen and (max-width: 480px) {

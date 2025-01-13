@@ -28,8 +28,8 @@ const Footer = () => {
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>+16462720134</p>
-            <p>beatricecharlottelee@gmail.com</p>
+            <p>+16462720096</p>
+            <p>ameliakarenmarshall@gmail.com</p>
           </div>
           <ul className={css.menu}>
             <li>Services</li>
